@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		062CE06DB8E9D96212857A77 /* Pods_Outquiz.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF0B0A8037D9FD8E6AB6AC8F /* Pods_Outquiz.framework */; };
+		8510DD4A2153E88100D75004 /* TestClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8510DD492153E88100D75004 /* TestClass.swift */; };
 		A60840932062AEC200B185C5 /* LeaderboardCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A60840922062AEC200B185C5 /* LeaderboardCell.swift */; };
 		A60840952062C30300B185C5 /* Show.swift in Sources */ = {isa = PBXBuildFile; fileRef = A60840942062C30300B185C5 /* Show.swift */; };
 		A60840972069459F00B185C5 /* MessageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A60840962069459F00B185C5 /* MessageCell.swift */; };
@@ -50,6 +51,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		8510DD492153E88100D75004 /* TestClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestClass.swift; sourceTree = "<group>"; };
 		A3889371C6B35A12B569C95C /* Pods-Outquiz.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Outquiz.release.xcconfig"; path = "Pods/Target Support Files/Pods-Outquiz/Pods-Outquiz.release.xcconfig"; sourceTree = "<group>"; };
 		A60840922062AEC200B185C5 /* LeaderboardCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeaderboardCell.swift; sourceTree = "<group>"; };
 		A60840942062C30300B185C5 /* Show.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Show.swift; sourceTree = "<group>"; };
@@ -174,6 +176,7 @@
 				A6C4EC882059803400263FF0 /* InfoPlist.strings */,
 				A637FDC520541A37000D50BD /* Outquiz.entitlements */,
 				A6CA13542091CCBF00B595AD /* Outquiz-Bridging-Header.h */,
+				8510DD492153E88100D75004 /* TestClass.swift */,
 			);
 			path = Outquiz;
 			sourceTree = "<group>";
@@ -419,6 +422,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A6C4EC8B205ACF2600263FF0 /* UIView.swift in Sources */,
+				8510DD4A2153E88100D75004 /* TestClass.swift in Sources */,
 				A6E07CFE20850FC2000B6CD8 /* RoundedButton.swift in Sources */,
 				A608409B20694E5600B185C5 /* Chat.swift in Sources */,
 				A637FDA220502D76000D50BD /* LoginViewController.swift in Sources */,
